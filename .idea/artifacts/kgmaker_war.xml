@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="kgmaker:war">
+    <output-path>$PROJECT_DIR$/kgmaker/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>kgmaker</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="kgmaker-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="kgmaker:war exploded" />
+    </root>
+  </artifact>
+</component>
